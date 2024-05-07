@@ -1,0 +1,51 @@
+footer {
+    .top_banner {
+        background-image: url('../images/footer-bg.jpg');
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        img {
+            position: absolute;
+            right: 10%;
+        }
+    }
+
+    .bottom {
+        background-color: $dc-dark;
+        padding: 2rem 0;
+
+        .container {
+
+            display: flex;
+            justify-content: space-between;
+
+            button {
+                padding: 1rem;
+                background-color: transparent;
+                border: 1px solid $dc-primary;
+                color: $dc-lighter;
+            }
+
+            .socials {
+                display: flex;
+                align-items: center;
+
+                div:first-child {
+                    color: $dc-primary;
+                    margin-right: 1rem;
+                }
+
+                ul {
+                    display: flex;
+                    gap: .5rem;
+                }
+            }
+        }
+    }
+}

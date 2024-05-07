@@ -20,7 +20,6 @@
         }
 
         .comics {
-
             display: flex;
             flex-wrap: wrap;
             gap: 1.5rem;
@@ -48,23 +47,23 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                }
 
-                .comic_title {
-                    color: $dc-dark;
-                    width: 100%;
-                    padding-top: 1rem;
-                    text-transform: uppercase;
-                }
+                    .comic_title {
+                        color: $dc-dark;
+                        width: 100%;
+                        padding-top: 1rem;
+                        text-transform: uppercase;
+                    }
 
-                p {
-                    color: $dc-dark;
-                }
+                    p {
+                        color: $dc-dark;
+                    }
 
-                .bottom_text {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: end;
+                    .bottom_text {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: end;
+                    }
                 }
             }
         }

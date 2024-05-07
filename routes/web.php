@@ -20,6 +20,9 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('home');
 
+
 Route::get('/products', function () {
-    return view('products');
+    $comics = config('comics');
+
+    return view('products', compact('comics'));
 })->name('products');

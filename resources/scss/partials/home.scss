@@ -7,10 +7,6 @@
     position: relative;
 
     .container {
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: space-between;
-        // gap: 2rem;
 
         .title_box {
             background-color: $dc-primary;
@@ -28,6 +24,7 @@
             flex-wrap: wrap;
             gap: 1.5rem;
             margin-bottom: 3.5rem;
+            justify-content: center;
 
             .comic {
                 width: calc(100% / 6 - 1.5rem);
@@ -61,6 +58,29 @@
             text-align: center;
             color: $dc-lighter;
 
+        }
+    }
+}
+
+.banner {
+    background-color: $dc-primary;
+    width: 100%;
+    padding: 2rem 0;
+
+    .container {
+
+        display: flex;
+        justify-content: space-between;
+
+        .link {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .text {
+                font-size: .85rem;
+                color: $dc-lighter;
+            }
         }
     }
 }

@@ -12,16 +12,16 @@
             <div class="bottom">
                 <img width="60" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="logo dc">
                 <ul>
-                    <li><a href="#">CHARACTERS</a></li>
-                    <li><a href="#">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">COLLECTIBLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP <span class="triangle">&#9660;</span></a></li>
+                    <li><a class="disabled" href="#">CHARACTERS</a></li>
+                    <li><a href="{{ route('comics.index') }}">COMICS</a></li>
+                    <li><a class="disabled" href="#">MOVIES</a></li>
+                    <li><a class="disabled" href="#">TV</a></li>
+                    <li><a class="disabled" href="#">GAMES</a></li>
+                    <li><a class="disabled" href="#">COLLECTIBLES</a></li>
+                    <li><a class="disabled" href="#">VIDEOS</a></li>
+                    <li><a class="disabled" href="#">FANS</a></li>
+                    <li><a class="disabled" href="#">NEWS</a></li>
+                    <li><a class="disabled" href="#">SHOP <span class="triangle">&#9660;</span></a></li>
                 </ul>
                 <div class="input">
                     <input type="text" placeholder="Search">

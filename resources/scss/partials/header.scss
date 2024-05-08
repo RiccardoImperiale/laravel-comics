@@ -43,11 +43,18 @@ nav {
                 &:hover {
                     border-bottom: 5px solid $dc-primary;
                 }
+
             }
 
             a {
                 color: $dc-dark;
                 font-weight: 400;
+
+            }
+
+            a.disabled {
+                color: rgb(182, 182, 182);
+                cursor: default;
             }
         }
     }

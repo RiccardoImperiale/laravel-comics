@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section id="products">
+    <section id="comics">
         <div class="container">
             <div class="title_box">ALL COMICS</div>
             <div class="comics">
@@ -25,7 +25,6 @@
                     </a>
                 @endforeach
             </div>
-            <div class="btn">LOAD MORE</div>
         </div>
     </section>
 @endsection
